@@ -75,7 +75,7 @@ def start_process(theme):
     params = {
         'orientation': 'landscape',
         'size': 'large',
-        'per_page': '8',
+        'per_page': '9',
         'query': f'{theme}'
         # Add more parameters as needed
     }
