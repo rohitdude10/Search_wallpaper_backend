@@ -151,10 +151,3 @@ def get_prev_page_data(next_page_url):
     except requests.exceptions.RequestException as e:
         print("An error occurred while calling the API:", e)
 
-
-# def main():
-
-#     start_process()
-
-# if __name__ == "__main__":
-#     main()
