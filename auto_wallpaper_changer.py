@@ -1,9 +1,5 @@
 import requests
-import time
-import random
 import os
-import shutil
-# import constant
 
 folder_path = "/home/rohit/Documents/auto_wallpaper/backend/downloaded_images/"
 max_size_mb = 100
