@@ -29,11 +29,13 @@ app.add_middleware(
 
 @app.get("/topics")
 async def root():
+    print("getting request")
     return {"topics":constant.TOPICS}
 
 
 @app.get("/wallpapers/{theme}")
 async def get_wallpaper(theme):
+    print("getting request")
     data = start_process(theme)
     return {"theme":data}
 
